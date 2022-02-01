@@ -26,10 +26,6 @@ main {
 .card {
     margin: auto 10px;
     background-color: var(--White);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     position: absolute;
     width: 320px;
     height: 497px;
@@ -69,7 +65,7 @@ main {
     top: 290px;     
 }
 
-.scan__box h2 {
+.scan__box h1 {
     color: var(--dark-blue);
     text-align: center;
     font-family: 'Outfit', sans-serif;
